@@ -1,0 +1,16 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[KonsoleWindow]
+RemoveWindowTitleBarAndFrame=true
+SaveGeometryOnExit=false
+ShowMenuBarByDefault=false
+ShowWindowTitleOnTitleBar=true
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAABFAAAAKKAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+
+[TabBar]
+ExpandTabWidth=true
+TabBarPosition=Top

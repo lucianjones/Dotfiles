@@ -54,9 +54,9 @@ super + ctrl + {m,x,y,z}
 # focus/swap
 #
 
-# focus the node in the given direction
-#super + {_,shift + }{h,j,k,l}
-#	bspc node -{f,s} {west,south,north,east}
+ focus the node in the given direction
+super + {h,j,k,l}
+	bspc node -{f} {west,south,north,east} &&  ~/scripts/bspwm_highlight_change
 
 # focus the node for the given path jump
 super + {p,b,comma,period}
@@ -134,10 +134,10 @@ super + shift + {h,j,k,l}
 # volume 
 
 XF86AudioRaiseVolume
-		pactl -- set-sink-volume 0 +5%
+		pactl -- set-sink-volume 2 +5%
 
 XF86AudioLowerVolume
-		pactl -- set-sink-volume 0 -5%
+		pactl -- set-sink-volume 2 -5%
 XF86AudioMute
-		pactl -- set-sink-volume 0 0%
+		pactl -- set-sink-volume 2 0%
 
